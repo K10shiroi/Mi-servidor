@@ -292,3 +292,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 [07Dec2024 00:32:34.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
 [07Dec2024 00:38:02.481] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: k10shiroi[/100.125.31.68:50169] logged in with entity id 227 at (76.45953177249103, 63.0, 18.740803204996148)
 [07Dec2024 00:38:02.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi joined the game
+[07Dec2024 00:41:52.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi has made the advancement [Stone Age]
+[07Dec2024 00:45:10.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi has made the advancement [Monster Hunter]
+[07Dec2024 00:47:49.562] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: k10shiroi lost connection: Disconnected
+[07Dec2024 00:47:49.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi left the game
