@@ -630,6 +630,8 @@
       "minecraft:spider": "2024-12-07 19:53:45 +0000",
       "minecraft:creeper": "2024-12-07 21:02:38 +0000",
       "minecraft:cave_spider": "2024-12-07 20:02:16 +0000",
+      "minecraft:enderman": "2024-12-07 21:45:20 +0000",
+      "minecraft:zombie": "2024-12-07 21:46:00 +0000",
       "minecraft:drowned": "2024-12-07 18:36:07 +0000"
     },
     "done": false
@@ -3696,6 +3698,18 @@
   "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2024-12-07 21:05:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-07 21:44:27 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-07 21:44:27 +0000"
     },
     "done": true
   },
