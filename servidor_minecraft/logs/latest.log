@@ -311,3 +311,6 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 [07Dec2024 19:48:24.497] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: k10shiroi[/100.125.31.68:65083] logged in with entity id 18675 at (-749.4185090766712, 64.0, -881.4358094938934)
 [07Dec2024 19:48:24.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi joined the game
 [07Dec2024 19:59:46.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi has made the advancement [Isn't It Iron Pick]
+[07Dec2024 20:15:50.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi has made the advancement [Hot Stuff]
+[07Dec2024 20:20:00.029] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: k10shiroi lost connection: Disconnected
+[07Dec2024 20:20:00.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi left the game
