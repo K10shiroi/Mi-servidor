@@ -5692,3 +5692,9 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 [07Dec2024 19:48:24.498] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@504dc504 into net.minecraft.network.Connection@2e9ba51
 [07Dec2024 19:48:24.509] [Server thread/DEBUG] [ModernFix/]: Sending ID correction packet to client with 61 classes
 [07Dec2024 19:48:24.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi joined the game
+[07Dec2024 19:50:51.843] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 19:50:51.851] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Dec2024 19:53:47.780] [Server thread/DEBUG] [mixin/]: Mixing alloc.explosion_behavior.EntityBasedExplosionDamageCalculatorMixin from canary.mixins.json into net.minecraft.world.level.EntityBasedExplosionDamageCalculator
+[07Dec2024 19:55:51.845] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 19:55:51.855] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Dec2024 19:59:46.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi has made the advancement [Isn't It Iron Pick]
