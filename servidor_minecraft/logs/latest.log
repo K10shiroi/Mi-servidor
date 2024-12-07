@@ -291,3 +291,11 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 [07Dec2024 18:24:37.585] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
 [07Dec2024 18:36:25.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi was impaled by Drowned
 [07Dec2024 18:46:03.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi has made the advancement [Getting an Upgrade]
+[07Dec2024 18:53:37.527] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: k10shiroi lost connection: Disconnected
+[07Dec2024 18:53:37.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi left the game
+[07Dec2024 18:55:05.835] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: k10shiroi[/100.125.31.68:65188] logged in with entity id 9106 at (-255.15936807912666, 66.0, -1211.5641251235252)
+[07Dec2024 18:55:05.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi joined the game
+[07Dec2024 18:56:41.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi has made the advancement [Sweet Dreams]
+[07Dec2024 18:57:22.193] [Worker-Main-7/INFO] [ModernFix/]: Instantiating Mojang DFU
+[07Dec2024 19:06:00.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi has made the advancement [Crops of the Wild]
+[07Dec2024 19:18:04.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi fell from a high place
