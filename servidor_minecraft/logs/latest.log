@@ -292,3 +292,4 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 [07Dec2024 22:03:35.961] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: k10shiroi[/100.125.31.68:59374] logged in with entity id 123 at (-670.6894083538039, -26.0, -824.6107609069251)
 [07Dec2024 22:03:36.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi joined the game
 [07Dec2024 22:03:44.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi was blown up by Creeper
+[07Dec2024 22:06:51.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi has made the advancement [Diamonds!]
