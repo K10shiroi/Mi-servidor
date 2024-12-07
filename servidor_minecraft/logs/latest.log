@@ -316,3 +316,5 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 [07Dec2024 20:20:00.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi left the game
 [07Dec2024 20:46:50.193] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: k10shiroi[/100.125.31.68:51782] logged in with entity id 24372 at (-722.1711240415516, 65.0, -869.5135715509961)
 [07Dec2024 20:46:50.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi joined the game
+[07Dec2024 21:08:53.826] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: k10shiroi lost connection: Disconnected
+[07Dec2024 21:08:53.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi left the game
