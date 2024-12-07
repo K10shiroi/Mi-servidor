@@ -1,135 +1,134 @@
-[03Dec2024 02:14:34.254] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[03Dec2024 02:14:34.257] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[03Dec2024 02:14:34.560] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[03Dec2024 02:14:34.602] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Mi-servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[03Dec2024 02:14:34.899] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[03Dec2024 02:14:34.900] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[03Dec2024 02:14:34.902] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[03Dec2024 02:14:34.904] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[03Dec2024 02:14:35.215] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[03Dec2024 02:14:35.216] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
-[03Dec2024 02:14:37.108] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[03Dec2024 02:14:37.247] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[03Dec2024 02:14:37.409] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.5+mc1.20.1: 84 options available, 0 override(s) found
-[03Dec2024 02:14:37.410] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[03Dec2024 02:14:37.428] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[03Dec2024 02:14:37.463] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
-[03Dec2024 02:14:37.637] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
-[03Dec2024 02:14:37.654] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
-[03Dec2024 02:14:37.663] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 76 options available, 0 override(s) found
-[03Dec2024 02:14:37.723] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue ItemStackCreationStatistics from mod jei as it's dev only!
-[03Dec2024 02:14:37.725] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.travelersbackpack.UntrackedIssue001 will NOT be loaded as mod travelersbackpack is not present
-[03Dec2024 02:14:37.726] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.toolbelt.UntrackedIssue001 will NOT be loaded as mod toolbelt is not present
-[03Dec2024 02:14:37.726] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.tfcthermaldeposits.UntrackedIssue001 will NOT be loaded as mod tfcthermaldeposits is not present
-[03Dec2024 02:14:37.728] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.smallships.UntrackedIssue001 will NOT be loaded as mod smallships is not present
-[03Dec2024 02:14:37.728] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.railcraft.UntrackedIssue001 will NOT be loaded as mod railcraft is not present
-[03Dec2024 02:14:37.729] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.pneumaticcraft.UntrackedIssue001 will NOT be loaded as mod pneumaticcraft is not present
-[03Dec2024 02:14:37.729] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.occultism.UntrackedIssue001 will NOT be loaded as mod occultism is not present
-[03Dec2024 02:14:37.730] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.20.1 in 1.20.1
-[03Dec2024 02:14:37.731] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.EntityTickListMixin]
-[03Dec2024 02:14:37.731] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.20.1 in 1.20.1
-[03Dec2024 02:14:37.732] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.irons_spellbooks.UntrackedIssue001 will NOT be loaded as mod irons_spellbooks is not present
-[03Dec2024 02:14:37.733] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue003 will be loaded as it matches versions: 47.3.7 in [47.2,)
-[03Dec2024 02:14:37.736] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue002 will be loaded as it matches versions: 47.3.7 in [47.2,)
-[03Dec2024 02:14:37.736] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [accessor.FakePlayerNetHandlerAccessor, accessor.ConnectionAccessor]
-[03Dec2024 02:14:37.737] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue001 will be loaded as it matches versions: 47.3.7 in [47.2,)
-[03Dec2024 02:14:37.737] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin]
-[03Dec2024 02:14:37.738] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forbidden_arcanus.UntrackedIssue001 will NOT be loaded as mod forbidden_arcanus is not present
-[03Dec2024 02:14:37.739] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.UntrackedIssue001 will NOT be loaded as mod curios is not present
-[03Dec2024 02:14:37.739] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.createaddition.UntrackedIssue001 will NOT be loaded as mod createaddition is not present
-[03Dec2024 02:14:37.740] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.create.UntrackedIssue001 will be loaded as it matches versions: 0.5.1.j in [0.5.1.c,)
-[03Dec2024 02:14:37.740] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [accessor.ExtendoGripItemAccessor]
-[03Dec2024 02:14:37.741] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.citadel.UntrackedIssue001 will NOT be loaded as mod citadel is not present
-[03Dec2024 02:14:37.741] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.betterf3.UntrackedIssue001 will NOT be loaded as mod betterf3 is not present
-[03Dec2024 02:14:37.742] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.badpackets.UntrackedIssue001 will NOT be loaded as mod badpackets is not present
-[03Dec2024 02:14:37.743] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.ars_nouveau.UntrackedIssue002 will NOT be loaded as mod ars_nouveau is not present
-[03Dec2024 02:14:37.743] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.ars_nouveau.UntrackedIssue001 will NOT be loaded as mod ars_nouveau is not present
-[03Dec2024 02:14:37.746] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.architectury.UntrackedIssue001 will NOT be loaded as mod architectury is not present
-[03Dec2024 02:14:37.746] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.aether.UntrackedIssue001 will NOT be loaded as mod aether is not present
-[03Dec2024 02:14:37.748] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.ae2wtlib.UntrackedIssue001 will NOT be loaded as mod ae2wtlib is not present
-[03Dec2024 02:14:37.748] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod twilightforest as it is client side only!
-[03Dec2024 02:14:37.749] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod travelersbackpack as it is client side only!
-[03Dec2024 02:14:37.749] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod tombstone as it is client side only!
-[03Dec2024 02:14:37.750] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod pneumaticcraft as it is client side only!
-[03Dec2024 02:14:37.750] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod nuclearcraft as it is client side only!
-[03Dec2024 02:14:37.751] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod mousetweaks as it is client side only!
-[03Dec2024 02:14:37.752] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod minecraft as it is client side only!
-[03Dec2024 02:14:37.752] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod minecraft as mod modernfix is present!
-[03Dec2024 02:14:37.753] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod minecolonies as it is client side only!
-[03Dec2024 02:14:37.753] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ldlib as it is client side only!
-[03Dec2024 02:14:37.754] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod journeymap as it is client side only!
-[03Dec2024 02:14:37.754] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod jeresources as it is client side only!
-[03Dec2024 02:14:37.755] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod jei as it is client side only!
-[03Dec2024 02:14:37.756] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod jei as it is client side only!
-[03Dec2024 02:14:37.756] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod irons_spellbooks as it is client side only!
-[03Dec2024 02:14:37.757] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod iceberg as it is client side only!
-[03Dec2024 02:14:37.757] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod iceberg as it is client side only!
-[03Dec2024 02:14:37.758] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod iceberg as it is client side only!
-[03Dec2024 02:14:37.758] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod geckolib as it is client side only!
-[03Dec2024 02:14:37.759] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ftblibrary as it is client side only!
-[03Dec2024 02:14:37.759] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod flywheel as it is client side only!
-[03Dec2024 02:14:37.760] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod findme as it is client side only!
-[03Dec2024 02:14:37.760] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod emi_loot as it is client side only!
-[03Dec2024 02:14:37.761] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod emi as it is client side only!
-[03Dec2024 02:14:37.761] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod easy_villagers as it is client side only!
-[03Dec2024 02:14:37.762] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod difficultylock as it is client side only!
-[03Dec2024 02:14:37.762] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod cyclopscore as it is client side only!
-[03Dec2024 02:14:37.762] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod corpse as it is client side only!
-[03Dec2024 02:14:37.763] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod blue_skies as it is client side only!
-[03Dec2024 02:14:37.764] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod badpackets as it is client side only!
-[03Dec2024 02:14:37.764] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ae2wtlib as it is client side only!
-[03Dec2024 02:14:37.765] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ae2wtlib as it is client side only!
-[03Dec2024 02:14:37.765] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.modernfix.CancelRLMixin will be loaded as it matches versions: 5.19.5+mc1.20.1 in [5.0.0,)
-[03Dec2024 02:14:37.766] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to cancel list: [org.embeddedt.modernfix.common.mixin.perf.deduplicate_location.MixinResourceLocation]
-[03Dec2024 02:14:37.771] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping feature ResourceLocation Deduplication from mod minecraft as it's feature flag is not activated!
-[03Dec2024 02:14:37.772] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping feature Ingredient Deduplication from mod minecraft as it's feature flag is not activated!
-[03Dec2024 02:14:37.772] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping feature Prevent Search Ignored Items from mod jei as it's feature flag is not activated!
-[03Dec2024 02:14:38.951] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
-[03Dec2024 02:14:38.951] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
-[03Dec2024 02:14:39.100] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[03Dec2024 02:14:39.812] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (7.813 s after launch)
-[03Dec2024 02:14:39.939] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[03Dec2024 02:14:39.940] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[03Dec2024 02:14:40.088] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[03Dec2024 02:14:40.089] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[03Dec2024 02:14:41.413] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1597 milliseconds
-[03Dec2024 02:14:45.095] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[03Dec2024 02:14:45.108] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
-[03Dec2024 02:14:45.167] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[03Dec2024 02:14:45.396] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[03Dec2024 02:14:45.396] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[03Dec2024 02:14:49.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
-[03Dec2024 02:14:49.101] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[03Dec2024 02:14:49.869] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: AHEAD Current: 1.20.1-1.1.23 Target: null
-[03Dec2024 02:14:49.870] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[03Dec2024 02:14:50.015] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[03Dec2024 02:14:50.016] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[03Dec2024 02:14:50.373] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[03Dec2024 02:14:50.374] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[03Dec2024 02:14:50.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
-[03Dec2024 02:14:50.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
-[03Dec2024 02:14:50.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
-[03Dec2024 02:14:50.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[03Dec2024 02:14:50.959] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[03Dec2024 02:14:50.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[03Dec2024 02:14:51.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[03Dec2024 02:14:51.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json
-[03Dec2024 02:14:51.141] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Found status: UP_TO_DATE Current: 3.3.0 Target: null
-[03Dec2024 02:14:51.598] [modloading-worker-0/WARN] [tacz/RecipeLoader]: Failed to read recipe file: java.util.zip.ZipFile@9eab607, entry: immersive_armorer/recipes/attachments/sight_light.json
-[03Dec2024 02:14:51.662] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[03Dec2024 02:14:51.662] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[03Dec2024 02:14:51.663] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[03Dec2024 02:14:51.663] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[03Dec2024 02:14:51.663] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[03Dec2024 02:14:51.663] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[03Dec2024 02:14:51.663] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[03Dec2024 02:14:51.664] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
-[03Dec2024 02:14:52.674] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03Dec2024 02:14:52.774] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[03Dec2024 02:14:53.375] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
-[03Dec2024 02:14:53.375] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
-[03Dec2024 02:14:54.700] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag create_factory:sweet_berries_jam as it is missing following references: create_factory:sweet_berries_jam_flowing (from create_factory-0.4b-1.20.1.jar)
-[03Dec2024 02:14:54.852] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:arrow_recipe from createtaczauto:recipes/arrow_recipe.json
+[07Dec2024 00:31:20.055] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[07Dec2024 00:31:20.075] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[07Dec2024 00:31:21.436] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Dec2024 00:31:21.565] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Mi-servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[07Dec2024 00:31:22.306] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 00:31:22.311] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 00:31:22.315] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 00:31:22.317] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 00:31:23.218] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[07Dec2024 00:31:23.226] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
+[07Dec2024 00:31:27.329] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Dec2024 00:31:27.617] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[07Dec2024 00:31:28.227] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.5+mc1.20.1: 84 options available, 0 override(s) found
+[07Dec2024 00:31:28.229] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[07Dec2024 00:31:28.260] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[07Dec2024 00:31:28.343] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[07Dec2024 00:31:29.202] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[07Dec2024 00:31:29.203] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[07Dec2024 00:31:29.219] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 76 options available, 0 override(s) found
+[07Dec2024 00:31:30.591] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue ItemStackCreationStatistics from mod jei as it's dev only!
+[07Dec2024 00:31:30.593] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.travelersbackpack.UntrackedIssue001 will NOT be loaded as mod travelersbackpack is not present
+[07Dec2024 00:31:30.597] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.toolbelt.UntrackedIssue001 will NOT be loaded as mod toolbelt is not present
+[07Dec2024 00:31:30.598] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.tfcthermaldeposits.UntrackedIssue001 will NOT be loaded as mod tfcthermaldeposits is not present
+[07Dec2024 00:31:30.598] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.smallships.UntrackedIssue001 will NOT be loaded as mod smallships is not present
+[07Dec2024 00:31:30.598] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.railcraft.UntrackedIssue001 will NOT be loaded as mod railcraft is not present
+[07Dec2024 00:31:30.599] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.pneumaticcraft.UntrackedIssue001 will NOT be loaded as mod pneumaticcraft is not present
+[07Dec2024 00:31:30.599] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.occultism.UntrackedIssue001 will NOT be loaded as mod occultism is not present
+[07Dec2024 00:31:30.599] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.20.1 in 1.20.1
+[07Dec2024 00:31:30.600] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.EntityTickListMixin]
+[07Dec2024 00:31:30.600] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.20.1 in 1.20.1
+[07Dec2024 00:31:30.601] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.irons_spellbooks.UntrackedIssue001 will NOT be loaded as mod irons_spellbooks is not present
+[07Dec2024 00:31:30.601] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue003 will be loaded as it matches versions: 47.3.7 in [47.2,)
+[07Dec2024 00:31:30.603] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue002 will be loaded as it matches versions: 47.3.7 in [47.2,)
+[07Dec2024 00:31:30.603] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [accessor.FakePlayerNetHandlerAccessor, accessor.ConnectionAccessor]
+[07Dec2024 00:31:30.603] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue001 will be loaded as it matches versions: 47.3.7 in [47.2,)
+[07Dec2024 00:31:30.604] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin]
+[07Dec2024 00:31:30.605] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forbidden_arcanus.UntrackedIssue001 will NOT be loaded as mod forbidden_arcanus is not present
+[07Dec2024 00:31:30.605] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.UntrackedIssue001 will NOT be loaded as mod curios is not present
+[07Dec2024 00:31:30.605] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.createaddition.UntrackedIssue001 will NOT be loaded as mod createaddition is not present
+[07Dec2024 00:31:30.606] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.create.UntrackedIssue001 will be loaded as it matches versions: 0.5.1.j in [0.5.1.c,)
+[07Dec2024 00:31:30.619] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [accessor.ExtendoGripItemAccessor]
+[07Dec2024 00:31:30.619] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.citadel.UntrackedIssue001 will NOT be loaded as mod citadel is not present
+[07Dec2024 00:31:30.620] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.betterf3.UntrackedIssue001 will NOT be loaded as mod betterf3 is not present
+[07Dec2024 00:31:30.620] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.badpackets.UntrackedIssue001 will NOT be loaded as mod badpackets is not present
+[07Dec2024 00:31:30.620] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.ars_nouveau.UntrackedIssue002 will NOT be loaded as mod ars_nouveau is not present
+[07Dec2024 00:31:30.621] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.ars_nouveau.UntrackedIssue001 will NOT be loaded as mod ars_nouveau is not present
+[07Dec2024 00:31:30.621] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.architectury.UntrackedIssue001 will NOT be loaded as mod architectury is not present
+[07Dec2024 00:31:30.621] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.aether.UntrackedIssue001 will NOT be loaded as mod aether is not present
+[07Dec2024 00:31:30.624] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.ae2wtlib.UntrackedIssue001 will NOT be loaded as mod ae2wtlib is not present
+[07Dec2024 00:31:30.624] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod twilightforest as it is client side only!
+[07Dec2024 00:31:30.624] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod travelersbackpack as it is client side only!
+[07Dec2024 00:31:30.625] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod tombstone as it is client side only!
+[07Dec2024 00:31:30.625] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod pneumaticcraft as it is client side only!
+[07Dec2024 00:31:30.625] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod nuclearcraft as it is client side only!
+[07Dec2024 00:31:30.625] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod mousetweaks as it is client side only!
+[07Dec2024 00:31:30.626] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod minecraft as it is client side only!
+[07Dec2024 00:31:30.626] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod minecraft as mod modernfix is present!
+[07Dec2024 00:31:30.626] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod minecolonies as it is client side only!
+[07Dec2024 00:31:30.628] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ldlib as it is client side only!
+[07Dec2024 00:31:30.628] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod journeymap as it is client side only!
+[07Dec2024 00:31:30.629] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod jeresources as it is client side only!
+[07Dec2024 00:31:30.629] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod jei as it is client side only!
+[07Dec2024 00:31:30.630] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod jei as it is client side only!
+[07Dec2024 00:31:30.630] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod irons_spellbooks as it is client side only!
+[07Dec2024 00:31:30.631] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod iceberg as it is client side only!
+[07Dec2024 00:31:30.631] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod iceberg as it is client side only!
+[07Dec2024 00:31:30.631] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod iceberg as it is client side only!
+[07Dec2024 00:31:30.632] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod geckolib as it is client side only!
+[07Dec2024 00:31:30.632] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ftblibrary as it is client side only!
+[07Dec2024 00:31:30.633] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod flywheel as it is client side only!
+[07Dec2024 00:31:30.633] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod findme as it is client side only!
+[07Dec2024 00:31:30.634] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod emi_loot as it is client side only!
+[07Dec2024 00:31:30.634] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod emi as it is client side only!
+[07Dec2024 00:31:30.635] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod easy_villagers as it is client side only!
+[07Dec2024 00:31:30.635] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod difficultylock as it is client side only!
+[07Dec2024 00:31:30.635] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod cyclopscore as it is client side only!
+[07Dec2024 00:31:30.637] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod corpse as it is client side only!
+[07Dec2024 00:31:30.638] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod blue_skies as it is client side only!
+[07Dec2024 00:31:30.638] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod badpackets as it is client side only!
+[07Dec2024 00:31:30.639] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ae2wtlib as it is client side only!
+[07Dec2024 00:31:30.639] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ae2wtlib as it is client side only!
+[07Dec2024 00:31:30.639] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.modernfix.CancelRLMixin will be loaded as it matches versions: 5.19.5+mc1.20.1 in [5.0.0,)
+[07Dec2024 00:31:30.640] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to cancel list: [org.embeddedt.modernfix.common.mixin.perf.deduplicate_location.MixinResourceLocation]
+[07Dec2024 00:31:31.054] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping feature ResourceLocation Deduplication from mod minecraft as it's feature flag is not activated!
+[07Dec2024 00:31:31.054] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping feature Ingredient Deduplication from mod minecraft as it's feature flag is not activated!
+[07Dec2024 00:31:31.055] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping feature Prevent Search Ignored Items from mod jei as it's feature flag is not activated!
+[07Dec2024 00:31:33.948] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[07Dec2024 00:31:33.948] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[07Dec2024 00:31:34.398] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[07Dec2024 00:31:36.210] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (25.18 s after launch)
+[07Dec2024 00:31:37.022] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[07Dec2024 00:31:37.031] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[07Dec2024 00:31:37.520] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[07Dec2024 00:31:37.528] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[07Dec2024 00:31:43.131] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 6908 milliseconds
+[07Dec2024 00:31:51.169] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[07Dec2024 00:31:52.811] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
+[07Dec2024 00:31:53.340] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[07Dec2024 00:31:53.589] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[07Dec2024 00:31:53.596] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[07Dec2024 00:32:00.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[07Dec2024 00:32:02.379] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: AHEAD Current: 1.20.1-1.1.23 Target: null
+[07Dec2024 00:32:02.390] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[07Dec2024 00:32:02.625] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[07Dec2024 00:32:02.625] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[07Dec2024 00:32:03.051] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[07Dec2024 00:32:03.054] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[07Dec2024 00:32:03.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[07Dec2024 00:32:03.264] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[07Dec2024 00:32:03.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[07Dec2024 00:32:03.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[07Dec2024 00:32:03.803] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[07Dec2024 00:32:03.803] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Dec2024 00:32:03.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[07Dec2024 00:32:03.915] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json
+[07Dec2024 00:32:04.036] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[07Dec2024 00:32:09.748] [modloading-worker-0/WARN] [tacz/RecipeLoader]: Failed to read recipe file: java.util.zip.ZipFile@643ae91f, entry: immersive_armorer/recipes/attachments/sight_light.json
+[07Dec2024 00:32:09.817] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[07Dec2024 00:32:09.818] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[07Dec2024 00:32:09.818] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[07Dec2024 00:32:09.818] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[07Dec2024 00:32:09.818] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[07Dec2024 00:32:09.819] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[07Dec2024 00:32:09.819] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[07Dec2024 00:32:09.819] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[07Dec2024 00:32:11.898] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Dec2024 00:32:12.154] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[07Dec2024 00:32:13.640] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
+[07Dec2024 00:32:13.644] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Mi-servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
+[07Dec2024 00:32:18.786] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag create_factory:sweet_berries_jam as it is missing following references: create_factory:sweet_berries_jam_flowing (from create_factory-0.4b-1.20.1.jar)
+[07Dec2024 00:32:20.670] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:arrow_recipe from createtaczauto:recipes/arrow_recipe.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 25 column 4 path $.result
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
@@ -154,7 +153,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	... 13 more
-[03Dec2024 02:14:54.915] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:fusion_cell_recipe from createtaczauto:recipes/fusion_cell_recipe.json
+[07Dec2024 00:32:20.790] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:fusion_cell_recipe from createtaczauto:recipes/fusion_cell_recipe.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 25 column 4 path $.result
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
@@ -179,7 +178,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	... 13 more
-[03Dec2024 02:14:54.950] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:large_gunpowder_recipe_2 from createtaczauto:recipes/large_gunpowder_recipe_2.json
+[07Dec2024 00:32:20.866] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:large_gunpowder_recipe_2 from createtaczauto:recipes/large_gunpowder_recipe_2.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 25 column 4 path $.result.item
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
@@ -204,7 +203,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	... 13 more
-[03Dec2024 02:14:54.982] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:nails_recipe from createtaczauto:recipes/nails_recipe.json
+[07Dec2024 00:32:20.900] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:nails_recipe from createtaczauto:recipes/nails_recipe.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 18 column 6 path $.result
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
@@ -229,7 +228,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	... 13 more
-[03Dec2024 02:14:55.017] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:recipe_338_lapua_recipe from createtaczauto:recipes/recipe_338_lapua_recipe.json
+[07Dec2024 00:32:20.960] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createtaczauto:recipe_338_lapua_recipe from createtaczauto:recipes/recipe_338_lapua_recipe.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 22 column 6 path $.ingredients[6]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
@@ -254,57 +253,42 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at 
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	... 13 more
-[03Dec2024 02:14:55.604] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createtaczeroauto:ammo_12g_recipe: com.google.gson.JsonSyntaxException: Unknown item 'createtaczauto:12_gauge_casing'
-[03Dec2024 02:14:55.622] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
-[03Dec2024 02:14:55.626] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
-[03Dec2024 02:14:55.765] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3237 advancements
-[03Dec2024 02:14:55.956] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[03Dec2024 02:14:55.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[03Dec2024 02:14:55.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[03Dec2024 02:14:55.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[03Dec2024 02:14:56.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[03Dec2024 02:14:56.113] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[03Dec2024 02:14:56.179] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03Dec2024 02:14:56.180] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[03Dec2024 02:14:56.180] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03Dec2024 02:14:56.180] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[03Dec2024 02:14:56.223] [Server thread/INFO] [Framework/]: Loading server configs...
-[03Dec2024 02:14:56.240] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[03Dec2024 02:14:56.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[03Dec2024 02:14:56.725] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
-[03Dec2024 02:14:58.019] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Dec2024 02:14:58.020] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Dec2024 02:14:58.021] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Dec2024 02:14:58.212] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Dec2024 02:14:58.848] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2137 ms
-[03Dec2024 02:14:58.849] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.659s)! For help, type "help"
-[03Dec2024 02:14:58.880] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[03Dec2024 02:14:58.881] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
-[03Dec2024 02:14:58.887] [Server thread/WARN] [ModernFix/]: Dedicated server took 26.889 seconds to load
-[03Dec2024 02:17:52.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[03Dec2024 02:17:52.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[03Dec2024 02:17:52.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[03Dec2024 02:17:52.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03Dec2024 02:17:52.537] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2363!/:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2363!/:?]
-	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.20.1-47.3.7-universal.jar%23156!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
-Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
-	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2364!/:?]
-	... 4 more
-[03Dec2024 02:17:52.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03Dec2024 02:17:52.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03Dec2024 02:17:52.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03Dec2024 02:17:52.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03Dec2024 02:17:52.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03Dec2024 02:17:52.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03Dec2024 02:17:52.692] [Server thread/INFO] [Framework/]: Unloading server configs...
-[03Dec2024 02:17:52.693] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[07Dec2024 00:32:22.035] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createtaczeroauto:ammo_12g_recipe: com.google.gson.JsonSyntaxException: Unknown item 'createtaczauto:12_gauge_casing'
+[07Dec2024 00:32:22.155] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
+[07Dec2024 00:32:22.159] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
+[07Dec2024 00:32:22.502] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3237 advancements
+[07Dec2024 00:32:22.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Dec2024 00:32:22.825] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Dec2024 00:32:22.825] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Dec2024 00:32:22.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Dec2024 00:32:23.106] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Dec2024 00:32:23.217] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Dec2024 00:32:23.471] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Dec2024 00:32:23.472] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Dec2024 00:32:23.472] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Dec2024 00:32:23.472] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Dec2024 00:32:23.561] [Server thread/INFO] [Framework/]: Loading server configs...
+[07Dec2024 00:32:23.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Dec2024 00:32:23.861] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[07Dec2024 00:32:25.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Dec2024 00:32:25.777] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[07Dec2024 00:32:29.417] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:29.443] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:29.443] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:29.444] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:29.448] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:29.448] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:29.448] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:29.448] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:29.862] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:30.487] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:30.760] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:31.260] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 00:32:32.197] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6440 ms
+[07Dec2024 00:32:32.202] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.713s)! For help, type "help"
+[07Dec2024 00:32:32.344] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Dec2024 00:32:32.379] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[07Dec2024 00:32:32.402] [Server thread/WARN] [ModernFix/]: Dedicated server took 81.368 seconds to load
+[07Dec2024 00:32:34.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[07Dec2024 00:38:02.481] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: k10shiroi[/100.125.31.68:50169] logged in with entity id 227 at (76.45953177249103, 63.0, 18.740803204996148)
+[07Dec2024 00:38:02.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: k10shiroi joined the game
