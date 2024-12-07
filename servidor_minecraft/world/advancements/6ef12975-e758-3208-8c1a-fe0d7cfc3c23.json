@@ -3633,17 +3633,35 @@
     },
     "done": true
   },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sugar_cane": "2024-12-07 20:49:32 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2024-12-07 20:54:37 +0000"
     },
     "done": true
   },
-  "farmersdelight:main/plant_all_crops": {
+  "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
-      "sugar_cane": "2024-12-07 20:49:32 +0000"
+      "has_gunpowder": "2024-12-07 20:55:26 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-12-07 20:55:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-12-07 21:02:21 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/dye_black_carpet": {
     "criteria": {
@@ -3663,27 +3681,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2024-12-07 20:55:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2024-12-07 21:02:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_black_dye": "2024-12-07 21:05:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2024-12-07 20:55:26 +0000"
     },
     "done": true
   },
